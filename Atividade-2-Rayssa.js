@@ -10,9 +10,11 @@ var idade = anoAtual - nascimento;
 console.log(nome, "tem", idade, "anos");
 console.log("----------------------------------------------");
 console.log("Exercício 2");
+
 var retanguloC = 12;
 var retanguloL = 6;
 var area = retanguloC * retanguloL;
+
 console.log(
   "Comprimento:",
   retanguloC,
@@ -25,7 +27,7 @@ console.log("-----------------------------------------------");
 console.log("Exercício 3");
 var altura = 5;
 var volume = altura * retanguloC * retanguloL;
-console.log("Altura", altura, "| Volume", volume);
+console.log("Altura:", altura, "| Volume:", volume);
 
 console.log("------------------------------------------------");
 console.log("Exercício 4");
@@ -35,7 +37,7 @@ var B = 3;
 var C = -1;
 var Delta = B ** 2 - 4 * A * C;
 
-console.log("O delta da equação é", Delta);
+console.log("O delta da equação é:", Delta);
 
 console.log("-------------------------------------------------");
 console.log("Exercício 5");
@@ -53,4 +55,4 @@ console.log("Exercício 6");
 var horas = 3.5;
 var velocidade = 95;
 var distância = horas * velocidade;
-console.log("O valor da distância é de:", horas * velocidade);
+console.log("O valor da distância é de:", horas * velocidade, "km");
