@@ -12,4 +12,4 @@ function media(combustivel) {
     return 12 * combustivel;
 }
 
-console.log(`O carro poderá viajar cerca de ${media(50)} kms`);
+console.log(`Um carro de 50 litros poderá viajar cerca de ${media(50)} kms`);
