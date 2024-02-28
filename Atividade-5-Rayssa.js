@@ -11,4 +11,4 @@ console.log(`A minha idade nesse ano de 2024 é de ${idade (2007)} anos`);
 function Km(combustivel) {
     return 12 * combustivel;
 }
-console.log(`O carro poderá viajar cerca de: ${Km(50)} kms/L`);
+console.log(`O carro poderá viajar cerca de: ${Km(50)} kms`);
