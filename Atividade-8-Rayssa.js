@@ -13,14 +13,14 @@
 // apresentar(): Exibe as informações do aluno no formato:
 
 class Aluno {
-  constructor(ra, nome, dataNascimento, curso,) {
+  constructor(ra, nome, anoNascimento, curso,) {
     this.ra = ra;
     this.nome = nome;
-    this.dataNascimento = dataNascimento;
+    this.anoNascimento = anoNascimento;
     this.curso = curso;
   }
   calcularIdade() {
-    return 2024 - this.dataNascimento;
+    return 2024 - this.anoNascimento;
   }
   apresentar() {
     console.log(
